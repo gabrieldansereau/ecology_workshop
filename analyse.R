@@ -4,4 +4,4 @@ library(ratdat)
 
 # Graphique
 ggplot(data = complete_old, aes(x = weight, y = hindfoot_length))+
-  geom_point()
+  geom_point(color = "blue")
